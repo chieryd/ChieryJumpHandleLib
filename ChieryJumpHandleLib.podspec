@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source        = { :git => "https://github.com/chieryd/ChieryJumpHandleLib.git", :tag => s.version.to_s }
   s.resources = "library/*.h"
-  s.ios.vendored_library = 'library/libChieryJumpHandle.a'
+  s.ios.vendored_library = 'library/libChieryJumpHandle_a.a'
 end
