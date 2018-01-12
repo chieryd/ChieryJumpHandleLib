@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChieryJumpHandleLib"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.summary      = "ChieryJumpHandleLib 静态库"
 
   s.description  = <<-DESC
@@ -21,5 +21,6 @@ Pod::Spec.new do |s|
   s.source        = { :git => "https://github.com/chieryd/ChieryJumpHandleLib.git", :tag => s.version.to_s }
   s.source_files  = "library/**/*.{h,m}"
   s.public_header_files = "library/**/*.h"
+  s.resources = "library/**/*.plist"
   s.ios.vendored_library = 'library/libChieryJumpHandle_a.a'
 end
