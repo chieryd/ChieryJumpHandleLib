@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ChieryJumpHandleLib"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ChieryJumpHandleLib 静态库"
 
   s.description  = <<-DESC
